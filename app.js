@@ -1,9 +1,10 @@
+require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const routes = require("./router/router");
 const host = "localhost";
-const port = 10000;
+const port = 8080;
 const uri =
   "mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
 //const connectDB = require("./controller/database");
@@ -31,8 +32,9 @@ app.use(express.json());
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
-    app.listen(process.env.PORT || 10000, host, () => {
+    app.listen(process.env.PORT || port, host, () => {
       console.log(`Server running at ${host}:${port}`);
+      console.log(process.env.PORT);
     });
   })
   .catch((err) => {
