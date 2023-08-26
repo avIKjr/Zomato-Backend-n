@@ -33,8 +33,8 @@ mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     app.listen(process.env.PORT || port, host, () => {
-      console.log(`Server running at ${host}:${port}`);
-      console.log(process.env.PORT);
+      //console.log(`Server running at ${host}:${port}`);
+      //console.log(process.env.PORT);
     });
   })
   .catch((err) => {
