@@ -1,0 +1,134 @@
+[
+  {
+    "_id": {
+      "$oid": "64d74adf2da1fe79aec2d35c"
+    },
+    "name": "Domino's",
+    "city": "Delhi",
+    "location_id": 1,
+    "city_id": 1,
+    "locality": "ShalimarBagh",
+    "thumb": [
+      "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-96385013/96385013.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/8/800318/a0c3bcc09b1448a7138beda386f8db21.jpg?fit=around|960:500&crop=960:500;*,*",
+      "https://b.zmtcdn.com/data/pictures/4/1400304/4d375e8761546f7e7d90af026cc3c8a0_featured_v2.jpg"
+    ],
+    "aggregate_rating": 4.2,
+    "rating_text": "VeryGood",
+    "min_price": 666,
+    "contact_number": {
+      "$numberLong": "9453524651"
+    },
+    "cuisine": [
+      {
+        "id": 1,
+        "name": "North Indian"
+      },
+      {
+        "id": 4,
+        "name": "Fast Food"
+      }
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/800px-Domino%27s_pizza_logo.svg.png",
+    "mealtype_id": 1
+  },
+  {
+    "_id": {
+      "$oid": "64d74adf2da1fe79aec2d35d"
+    },
+    "name": "KFC",
+    "city": "Delhi",
+    "location_id": 1,
+    "city_id": 1,
+    "locality": "ShalimarBagh",
+    "thumb": [
+      "https://b.zmtcdn.com/data/pictures/chains/7/37327/b9e1524a6ac4ffcf085cc410099833a9.jpg",
+      "https://jontotheworld.com/wp-content/uploads/2022/05/Kfc-menu-3.jpg",
+      "https://b.zmtcdn.com/data/pictures/chains/1/931/ab697b192096ff926487b0cf97d2cb23.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    ],
+    "aggregate_rating": 4.5,
+    "rating_text": "Excellent",
+    "min_price": 333,
+    "contact_number": {
+      "$numberLong": "9453524651"
+    },
+    "cuisine": [
+      {
+        "id": 2,
+        "name": "South Indian"
+      },
+      {
+        "id": 4,
+        "name": "Fast Food"
+      }
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/KFC_logo-image.svg/800px-KFC_logo-image.svg.png",
+    "mealtype_id": 1
+  },
+  {
+    "_id": {
+      "$oid": "64d74adf2da1fe79aec2d35e"
+    },
+    "name": "BurgerKing",
+    "city": "Delhi",
+    "location_id": 1,
+    "city_id": 1,
+    "locality": "ShalimarBagh",
+    "thumb": [
+      "https://b.zmtcdn.com/data/pictures/chains/4/19193204/18e6d83c0f86b4dcc73fd80a91f4d283.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "https://b.zmtcdn.com/data/pictures/2/19193212/093078b91b0a62448e2d1f26027baa31.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*",
+      "https://b.zmtcdn.com/data/reviews_photos/f5a/8fc30b114a303a7a471706e5b73f6f5a_1567269539.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*"
+    ],
+    "aggregate_rating": 4.5,
+    "rating_text": "Excellent",
+    "min_price": 999,
+    "contact_number": {
+      "$numberLong": "9453524651"
+    },
+    "cuisine": [
+      {
+        "id": 2,
+        "name": "South Indian"
+      },
+      {
+        "id": 4,
+        "name": "Fast Food"
+      }
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Burger_King_2020.svg/550px-Burger_King_2020.svg.png",
+    "mealtype_id": 1
+  },
+  {
+    "_id": {
+      "$oid": "64d74adf2da1fe79aec2d35f"
+    },
+    "name": "Baba KaDhaba",
+    "city": "Delhi",
+    "location_id": 5,
+    "city_id": 1,
+    "locality": "AnandVihar",
+    "thumb": [
+      "https://b.zmtcdn.com/data/reviews_photos/eda/cdb09f3371d199688cb11ca6d5d2eeda_1604735305.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "https://b.zmtcdn.com/data/reviews_photos/42c/a38a97f3d1c8b12991c5abcbab58d42c_1630782714.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+      "https://b.zmtcdn.com/data/reviews_photos/216/118928409e17037f07f07d159fb16216_1611600801.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    ],
+    "aggregate_rating": 3.5,
+    "rating_text": "Excellent",
+    "min_price": 599,
+    "contact_number": {
+      "$numberLong": "9453524651"
+    },
+    "cuisine": [
+      {
+        "id": 2,
+        "name": "South Indian"
+      },
+      {
+        "id": 4,
+        "name": "Fast Food"
+      }
+    ],
+    "image": "https://b.zmtcdn.com/data/collections/edd5abbddd239a8cfb8099c63b1baaf0_1675247359.jpg",
+    "mealtype_id": 2
+  }
+]
