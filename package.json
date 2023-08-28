@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
   },
   "keywords": [],
-  "author": "",
+  "author": "avik",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
