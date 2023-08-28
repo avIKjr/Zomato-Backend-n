@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const routes = require("./router/router");
 const host = "localhost";
-const port = 4000;
+const port = process.env.PORT || 3000;
 const uri =
   "mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
 //const connectDB = require("./controller/database");
@@ -32,7 +32,7 @@ app.use(express.json());
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
-    app.listen(process.env.PORT || port, host, () => {
+    app.listen(port, host, () => {
       console.log(`Server running at ${host}:${port}`);
       console.log(process.env.PORT);
     });
