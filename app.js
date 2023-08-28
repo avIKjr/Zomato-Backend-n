@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 const app = express();
 const routes = require("./router/router");
 const host = "localhost";
-const port = process.env.PORT || 3000;
-const uri =
+const port = process.env.PORT || 3001;
+const uri =process.env.URI ||
   "mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
 //const connectDB = require("./controller/database");
 var cors = require("cors");
