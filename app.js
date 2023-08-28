@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const routes = require("./router/router");
 const host = "localhost";
-const port = 3000;
+const port = 4000;
 const uri =
   "mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
 //const connectDB = require("./controller/database");
