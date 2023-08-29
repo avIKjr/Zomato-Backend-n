@@ -6,6 +6,7 @@ const routes = require("./router/router");
 const host = "localhost";
 const port = process.env.PORT || 3001;
 const uri ="mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
+const db = process.env.URI || uri
 //const connectDB = require("./controller/database");
 var cors = require("cors");
 /* app.set('view engine', 'ejs')
@@ -29,7 +30,7 @@ app.use(express.json());
 //   console.log("Server listening on port 8080");
 // });
 mongoose
-  .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     app.listen(port, host, () => {
       console.log(`Server running at ${host}:${port}`);
