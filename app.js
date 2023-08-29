@@ -22,7 +22,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/", routes);
+app.use("", routes);
 app.use(express.json());
 
 // connectDB();
