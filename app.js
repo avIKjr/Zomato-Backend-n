@@ -34,7 +34,7 @@ mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     app.listen(PORT, host, () => {
-      console.log(`Server running at ${host}:${port}`);
+      console.log(`Server running at ${host}:${PORT}`);
       
     });
   })
