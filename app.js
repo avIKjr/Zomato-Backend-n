@@ -4,9 +4,9 @@ const mongoose = require("mongoose");
 const app = express();
 const routes = require("./router/router");
 const host = "localhost";
-const port = process.env.PORT || 3001;
-const uri ="mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
-const db = process.env.URI || uri
+const PORT = process.env.PORT || 3001;
+const URI ="mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
+const db = process.env.URI || URI
 //const connectDB = require("./controller/database");
 var cors = require("cors");
 /* app.set('view engine', 'ejs')
@@ -33,7 +33,7 @@ app.use(express.json());
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
-    app.listen(port, host, () => {
+    app.listen(PORT, host, () => {
       console.log(`Server running at ${host}:${port}`);
       
     });
