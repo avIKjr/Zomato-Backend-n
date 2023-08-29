@@ -11,18 +11,18 @@ const db = process.env.URI || uri
 var cors = require("cors");
 /* app.set('view engine', 'ejs')
 app.set('views', './views') */
-// app.use((req, res, next) => {
-//   res.setHeader("Access-Control-Allow-Origin", "*");
-//   res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE");
-//   res.setHeader(
-//     "Access-Control-Allow-Headers",
-//     "Content-type",
-//     "Authorization"
-//   );
-//   next();
-// });
-app.use(cors());
-app.use("", routes);
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Content-type",
+    "Authorization"
+  );
+  next();
+});
+
+app.use("/", routes);
 app.use(express.json());
 
 // connectDB();
