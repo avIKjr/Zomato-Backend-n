@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const routes = require("./router/router");
-const host = "localhost";
+const host = 0.0.0.0;
 const PORT = process.env.PORT || 3001;
 const URI ="mongodb+srv://K9YeNLUwSeThYyv1:K9YeNLUwSeThYyv1@cluster0.lchubc6.mongodb.net/Zomato?retryWrites=true&w=majority";
 const db = process.env.URI || URI
